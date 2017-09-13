@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		078A2CB21F69692500019DFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A2CB11F69692500019DFA /* AppDelegate.swift */; };
-		078A2CB41F69692500019DFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A2CB31F69692500019DFA /* ViewController.swift */; };
 		078A2CB71F69692500019DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078A2CB51F69692500019DFA /* Main.storyboard */; };
 		078A2CB91F69692500019DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078A2CB81F69692500019DFA /* Assets.xcassets */; };
 		078A2CBC1F69692500019DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078A2CBA1F69692500019DFA /* LaunchScreen.storyboard */; };
-		078A2CC71F69692600019DFA /* EvilWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A2CC61F69692600019DFA /* EvilWikiTests.swift */; };
+		078A2CD21F69694000019DFA /* Supervilian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A2CD11F69694000019DFA /* Supervilian.swift */; };
+		078A2CD61F696AAE00019DFA /* SupervilianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A2CD51F696AAE00019DFA /* SupervilianTests.swift */; };
+		078A2CD81F696E3200019DFA /* MegaWeapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A2CD71F696E3200019DFA /* MegaWeapon.swift */; };
+		078A2CDA1F6970D000019DFA /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A2CD91F6970D000019DFA /* TestData.swift */; };
+		07BBC2921F6971FF002BEE95 /* Supervilian+Convinience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBC2911F6971FF002BEE95 /* Supervilian+Convinience.swift */; };
+		07BBC2941F697BE1002BEE95 /* SupervilianEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBC2931F697BE1002BEE95 /* SupervilianEditViewController.swift */; };
+		07BBC2961F697E2A002BEE95 /* SupervilianEditPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBC2951F697E2A002BEE95 /* SupervilianEditPresenter.swift */; };
+		07BBC2981F698026002BEE95 /* SupervilianEditViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBC2971F698026002BEE95 /* SupervilianEditViewControllerTests.swift */; };
+		07BBC29A1F6983E1002BEE95 /* SupervilianEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBC2991F6983E1002BEE95 /* SupervilianEditView.swift */; };
+		07BBC29C1F698489002BEE95 /* SupervilianEditPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BBC29B1F698489002BEE95 /* SupervilianEditPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +36,22 @@
 /* Begin PBXFileReference section */
 		078A2CAE1F69692500019DFA /* EvilWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvilWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		078A2CB11F69692500019DFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		078A2CB31F69692500019DFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		078A2CB61F69692500019DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		078A2CB81F69692500019DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		078A2CBB1F69692500019DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		078A2CBD1F69692500019DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		078A2CC21F69692600019DFA /* EvilWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvilWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		078A2CC61F69692600019DFA /* EvilWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvilWikiTests.swift; sourceTree = "<group>"; };
 		078A2CC81F69692600019DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078A2CD11F69694000019DFA /* Supervilian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Supervilian.swift; sourceTree = "<group>"; };
+		078A2CD51F696AAE00019DFA /* SupervilianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervilianTests.swift; sourceTree = "<group>"; };
+		078A2CD71F696E3200019DFA /* MegaWeapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaWeapon.swift; sourceTree = "<group>"; };
+		078A2CD91F6970D000019DFA /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		07BBC2911F6971FF002BEE95 /* Supervilian+Convinience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Supervilian+Convinience.swift"; sourceTree = "<group>"; };
+		07BBC2931F697BE1002BEE95 /* SupervilianEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervilianEditViewController.swift; sourceTree = "<group>"; };
+		07BBC2951F697E2A002BEE95 /* SupervilianEditPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervilianEditPresenter.swift; sourceTree = "<group>"; };
+		07BBC2971F698026002BEE95 /* SupervilianEditViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervilianEditViewControllerTests.swift; sourceTree = "<group>"; };
+		07BBC2991F6983E1002BEE95 /* SupervilianEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervilianEditView.swift; sourceTree = "<group>"; };
+		07BBC29B1F698489002BEE95 /* SupervilianEditPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervilianEditPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +93,12 @@
 		078A2CB01F69692500019DFA /* EvilWiki */ = {
 			isa = PBXGroup;
 			children = (
+				078A2CD11F69694000019DFA /* Supervilian.swift */,
+				078A2CD71F696E3200019DFA /* MegaWeapon.swift */,
+				07BBC2931F697BE1002BEE95 /* SupervilianEditViewController.swift */,
+				07BBC2951F697E2A002BEE95 /* SupervilianEditPresenter.swift */,
+				07BBC2991F6983E1002BEE95 /* SupervilianEditView.swift */,
 				078A2CB11F69692500019DFA /* AppDelegate.swift */,
-				078A2CB31F69692500019DFA /* ViewController.swift */,
 				078A2CB51F69692500019DFA /* Main.storyboard */,
 				078A2CB81F69692500019DFA /* Assets.xcassets */,
 				078A2CBA1F69692500019DFA /* LaunchScreen.storyboard */,
@@ -90,8 +110,12 @@
 		078A2CC51F69692600019DFA /* EvilWikiTests */ = {
 			isa = PBXGroup;
 			children = (
-				078A2CC61F69692600019DFA /* EvilWikiTests.swift */,
+				078A2CD51F696AAE00019DFA /* SupervilianTests.swift */,
+				07BBC2971F698026002BEE95 /* SupervilianEditViewControllerTests.swift */,
+				07BBC29B1F698489002BEE95 /* SupervilianEditPresenterTests.swift */,
 				078A2CC81F69692600019DFA /* Info.plist */,
+				078A2CD91F6970D000019DFA /* TestData.swift */,
+				07BBC2911F6971FF002BEE95 /* Supervilian+Convinience.swift */,
 			);
 			path = EvilWikiTests;
 			sourceTree = "<group>";
@@ -150,6 +174,7 @@
 					};
 					078A2CC11F69692600019DFA = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 078A2CAD1F69692500019DFA;
 					};
@@ -199,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078A2CB41F69692500019DFA /* ViewController.swift in Sources */,
+				07BBC2961F697E2A002BEE95 /* SupervilianEditPresenter.swift in Sources */,
+				07BBC29A1F6983E1002BEE95 /* SupervilianEditView.swift in Sources */,
+				078A2CD21F69694000019DFA /* Supervilian.swift in Sources */,
+				07BBC2941F697BE1002BEE95 /* SupervilianEditViewController.swift in Sources */,
 				078A2CB21F69692500019DFA /* AppDelegate.swift in Sources */,
+				078A2CD81F696E3200019DFA /* MegaWeapon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078A2CC71F69692600019DFA /* EvilWikiTests.swift in Sources */,
+				07BBC29C1F698489002BEE95 /* SupervilianEditPresenterTests.swift in Sources */,
+				078A2CD61F696AAE00019DFA /* SupervilianTests.swift in Sources */,
+				07BBC2981F698026002BEE95 /* SupervilianEditViewControllerTests.swift in Sources */,
+				07BBC2921F6971FF002BEE95 /* Supervilian+Convinience.swift in Sources */,
+				078A2CDA1F6970D000019DFA /* TestData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,11 +415,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EvilWikiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = intersection.EvilWikiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EvilWiki.app/EvilWiki";
@@ -398,6 +433,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EvilWikiTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
